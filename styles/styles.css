@@ -112,7 +112,7 @@ body {
 }
 
 /* Iframe */
-iframe {
+#video {
     width: 480px;
     height: 315px;
 }
@@ -190,3 +190,30 @@ iframe {
     font: 400 20px Robot, sans-serif;
 }
 
+/****** PAGE CONTACT *******/
+
+.formcontainer {
+    margin: 32px auto;
+    text-align: center;
+    max-width: 700px;
+    max-height: 800px;
+    border-radius: 15px;
+    background-color: #f3f3f3;
+    padding: 20px;
+    box-shadow: 1px 1px 1px -2px rgba(0, 0, 0, 0.6);
+}
+
+#iframeContact {
+    padding-top: 20px;
+    width: 640px;
+    height: 905px;
+}
+
+/****** PAGE LEARNMORE ******/
+.cardsLearnMore {
+    max-width: 800px;
+    margin: 32px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
