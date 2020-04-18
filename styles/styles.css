@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Body */
+body {
+    background: #d3d3d3 ;
+    color: black;
+    font: 400 18px Robot, sans-serif;
+}
+
+/******** PAGE INDEX ********/
+
+/* Header */
+.home{
+    background-image: url(../assets/images/covid19.jpg);
+    background-repeat: no-repeat;
+    height: 34%;
+    padding: 45px;
+    box-shadow: black 1px 1px 2px;
+    text-align: center;
+}
+
+/* titleHeader */
+.titleHeader {
+    text-align: right;   
+    color: #f2f2f2;
+}
+
+.titleHeader h1 {
+    font: 700 14px Robot, sans-serif;
+    font-size: 60px;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+
+/* Links */
+.links {
+    text-align: center;
+    height: 25px;
+    margin-top: 9%;
+}
+
+.links a {
+    color: #f2f2f2;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 24px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #0db582;
+    text-decoration: initial;
+    font: 700 22px Robot, sans-serif;
+}
+
+.links a:hover {
+    color: #0db582;
+    transition: color 700ms;
+}
+
+.cardText a {
+    font: 500 18px Robot, sans-serif;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 32px;
+}
+
+/* Cards */
+.cards {
+    max-width: 1000px;
+    margin: 32px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.card {
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    box-shadow: 0px 2px 6px -2px rgba(0, 0, 0, 0.6);
+    text-align: justify;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.card audio {
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.cardImage img {
+    border-radius: 4px 4px 0px 0px;
+    width: 100%;
+    height: 300px;
+}
+
+.cardText {
+    text-align: center;
+    padding: 24px;
+}
+
+/* Iframe */
+iframe {
+    width: 480px;
+    height: 315px;
+}
+
+/* Footer */
+#footer {
+    margin-top: 0px;
+    padding: 26px 32px;
+    background: #073047;
+}
+
+#footerAbout {
+    margin-top: 0px;
+    background: #073047;
+    padding: 26px 32px;
+}
+
+/*********** PAGE ABOUT **********/
+
+/* Header */
+.headerAbout {
+    background-color: #073047;
+    height: 15%;
+    padding: 5px;
+    box-shadow: black 1px 1px 2px;
+    text-align: center;
+}
+
+.linksHeader {
+    text-align: center;
+    height: 25px;
+    margin-top: 3%;
+}
+
+.linksHeader a {
+    color: #f2f2f2;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 0 24px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #0db582;
+    text-decoration: initial;
+    font: 700 22px Robot, sans-serif;
+}
+
+/* contentPresentation */
+.contentPresentation {
+    color: #0b537c;
+}
+
+.contentPresentation img {
+    margin-top: 5px;
+    margin-bottom: 32px;
+    border-radius: 10%;
+    border: 2px solid #f3f3f3;
+    height: 300px;
+}
+
+.contentPresentation h1 {
+    font: 700 36px Robot, sans-serif;
+}
+
+.contentPresentation h2 {
+    margin-bottom: 8px;
+    opacity: 0.8;
+    font: 400 28px Robot, sans-serif;
+}
+
+.contentPresentation p {
+    text-align: justify;
+    max-width: 700px;
+    min-width: 400px;
+    margin: 32px auto;
+    line-height: 34px;
+    font: 400 20px Robot, sans-serif;
+}
+
